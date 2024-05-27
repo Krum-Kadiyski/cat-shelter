@@ -1,4 +1,4 @@
-const { readFile } = require('./util');
+const { readFile } = require('../util');
 
 function staticFileHandler(req, res) {
   if (req.url.endsWith('.css')) {
